@@ -1,0 +1,213 @@
+.indepth_pages{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	font-family: 'Roboto';
+	font-size: 19px;
+}
+
+.indepth_page_content{
+	background-color: white;
+	position: relative;
+}
+
+.indepth_page_body{
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 810px;
+	z-index: 2;
+}
+
+#indepth_cover{
+	height: 757px;
+	background: #141414;
+}
+
+#indepth_cover .indepth_page_body{
+	top:400px;
+	position: relative;
+}
+
+#indepth_cover .indepth_titlle_container{
+	float: left;
+	width: 707px;
+	 color: #FFF;
+}
+
+ #indepth_ver_texto{
+	display: inline-block;
+	padding: 3px 15px;
+	 background-color: rgba(0,0,0,0.25);
+	 border: 1px solid #FFF;
+	 color: #FFF;
+	 margin-top: 12px;
+	 cursor: pointer;
+	 font-weight: 500;
+	 font-size: 10px;
+	 border-radius: 5px;
+	 text-align: center;
+}
+
+#indepth_ver_texto:hover{
+	background-color: rgba(233,233,233,0.15);
+}
+
+#indepth_cover .indepth_title{
+	font-size:39px;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#indepth_cover .indepth_subtitle{
+	font-size:17px;
+	color:#FFF;
+	font-weight: 400;
+}
+
+
+/****social*****/
+.indepth_home-element-social div{
+	float: left;
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+.indepth_home-element-social{
+	width: 160px;
+	margin: 15px auto;
+	height: 30px;
+}
+
+/**********************/
+
+.indepth_page_content .indepth_page_body{
+	padding: 60px 0;
+	position: relative;
+}
+
+.indepth_page_content .indepth_container{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.indepth_page_content .indepth_title{
+	font-size:34px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 600;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #000;
+}
+
+.indepth_page_content .indepth_subtitle{
+	font-size:22px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 400;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #62977f;
+}
+
+.indepth_page_content .indepth_text{
+	color: #535252; /* color de la fuente*/
+	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
+	font-weight: 400;
+	font-size: 1em;
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	color: #8A8A8A;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+.indepth_break{
+		height: 800px;
+}
+
+.indepth_break .indepth_page_body{
+	height: 800px;
+	background-size: cover;
+	top: 0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+
+}
+
+.indepth_break .indepth_text_container{
+		height: 100%; /* */
+		display: table;
+}
+
+.indepth_break .indepth_text{
+	font-size:21px;
+	font-weight: 600;
+	color: #fff; /* color de la fuente*/
+	max-width:600px;
+	display: table-cell;
+	vertical-align: middle;		
+	padding: 0 15px; 
+	
+}
+
+
+
+.indepth_parallax_back {
+	height: 800px;
+	background-size: cover;
+	background-color: #000;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+}
+
+
+
+/****DINAMICO****/
+
+.indepth_page_uno{
+	background: #FCF9E6;
+}
+
+#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/ilus_1.jpg);
+}
+
+#indepth_break_1 .indepth_text_container{
+	background-color: rgba(171,171,171,0.51)
+}
+
+.indepth_parallax_back .indepth_text_container_left{
+	
+}
