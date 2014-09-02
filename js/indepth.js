@@ -31,11 +31,25 @@ var disqus_per_page=3;
 	}
 };
 
+var menu=function(){
+	$(document).on("click",".indepth_author_img",function(){
+		var ir=$(this).attr("ir");
+
+		var position = $("#"+ir).offset();
+				console.log(position);
+		$('html, body').animate({
+			scrollTop: position.top
+		}, 3000, function(){
+
+		});
+	})
+}
+
 
 $(document).ready(function(){
 	//indepth_sizeAdjust(true);
 	//indepth_preloadImgs();
-
+	menu();
     var ventana_alto = $(window).height();
     console.log("ventana: "+ventana_alto);
 	 if(ventana_alto>800){
