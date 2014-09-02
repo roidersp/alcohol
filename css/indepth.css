@@ -205,10 +205,43 @@
 	top: 0px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: 50% 0px;
+	background-position: 50% 50%;
 }
 
 
+.indepth_cuadricula{
+	width: 600px;
+	margin: 30px auto 10px;
+	display: table;
+}
+
+.indepth_cuadricula .indepth_cuadricula_fila{
+	width: 100%;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.indetpth_cuadricula_content{
+	width: 200px;
+	float: left;
+}
+
+.indepth_cuadricula_imagen{
+	width: 100px;
+	margin: auto;
+	height: 154px;
+	overflow: hidden;
+}
+
+.indepth_cuadricula_imagen img{
+	width: 100%;
+}
+
+.indepth_cuadricula_text{
+	text-align: center;
+	margin: 10px auto;
+	text-transform: uppercase;
+}
 
 /****DINAMICO****/
 
@@ -234,6 +267,11 @@
 
 #indepth_break_4 .indepth_parallax_back{
 	background-image: url(../images/ilus_4.jpg);
+}
+
+#indepth_break_5 .indepth_parallax_back{
+	background-image: url(../images/nike_ad.jpg);
+	height: 500px;
 }
 
 
