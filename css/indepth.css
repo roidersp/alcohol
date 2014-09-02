@@ -58,6 +58,10 @@
 	background-color: rgba(233,233,233,0.15);
 }
 
+#indepth_cover .indepth_parallax_back{
+	background-image: url(../images/memo_vazquez_cerebro.jpg);
+}
+
 #indepth_cover .indepth_title{
 	font-size:39px;
 	color:#FFF;
@@ -218,10 +222,170 @@
 	background-image: url(../images/ilus_4.jpg);
 }
 
-#indepth_break_1 .indepth_text_container{
-	/*background-color: rgba(222,171,29,0.5)*/
+
+@media screen and (min-width: 2341px) {
+	#indepth_footer .indepth_text{
+		text-align:left;
+		margin-left: -300px;
+	}
 }
 
-.indepth_parallax_back .indepth_text_container_left{
+/* mobile adecuations */
+
+@media screen and (max-width: 1960px) {
+	min-width: 800px;
+}
+
+/*** Movil ****/
+
+@media screen and (max-width:1023px) {
+	body{
+		width: 100%;
+		min-width: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.indepth_pages{
+		width: 100%;
+		max-width: 800px;	
+		min-width: 0px;
+	}
+
+	.indepth_page{
+		min-width: 0px;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.indepth_page_body{
+		width:95%;
+		margin: 0 auto;
+	}
+	
+	#indepth_cover .indepth_titlle_container {
+		width: 100%;
+	}
+	
+	/*** dinamico **/
+	
+	.indepth_break .indepth_parallax_back{
+		background-size: auto 100%;
+		background-attachment: scroll;
+	}
+	
+	.indepth_break .indepth_parallax_back .indepth_text_container{
+		padding: 0 10px;
+	}
+
+	#indepth_break_1 .indepth_parallax_back{
+		background-position:  65% 50%;
+	}
+	
+	#indepth_break_1 .indepth_text_container{
+		background-color: rgba(124,90,158,0.65);
+	}
+	
+	#indepth_break_2 .indepth_parallax_back{
+		background-position:  30% 50%;
+	}
+	
+	#indepth_break_2 .indepth_text_container{
+		background-color: rgba(65,118,181,0.57);
+	}
+	
+	#indepth_break_3 .indepth_text_container{
+		background-color:rgba(171,34,32,0.63);
+	}
+	
+	#indepth_break_4 .indepth_parallax_back{
+		background-position:  65% 50%;
+	}
+	
+	#indepth_break_4 .indepth_text_container{
+		background-color:rgba(222,157,37,0.6);
+	}
+}
+
+@media screen and (max-width: 360px) {
+	
+	#indepth_cover{
+		height: 540px;	
+	}
+	
+	#indepth_cover .indepth_title{
+		width: 100%;
+		font-size: 26px;
+		margin-top: 0px;
+	}
+	
+	#indepth_cover .indepth_page_body{
+		top:280px;
+	}
+	
+	.indepth_break {
+		height: auto;
+		width: 100%;
+	}
+	
+	.indepth_break .indepth_parallax_back {
+		height: 300px;
+		background-size: auto 100%;
+	}
+	.indepth_break .indepth_parallax_back .indepth_text_container{
+		padding: 10px 10px;
+		margin-top: 300px;
+		float: left;
+	}
+	
+	#indepth_break_1 .indepth_parallax_back{
+		background-position:  90% 50%;
+	}
+	
+	#indepth_break_1{
+		background-color: rgb(124,90,158);
+	}
+	
+	#indepth_break_2 .indepth_parallax_back{
+		background-position:  0% 50%;
+	}
+
+	#indepth_break_2 {
+		background-color: #4277b6;
+	}
+
+	#indepth_break_3 .indepth_parallax_back{
+		background-position:  0% 50%;
+	}
+	#indepth_break_3{
+		background-color:rgb(171,34,32);
+	}
+	
+	#indepth_break_4 .indepth_parallax_back{
+		background-position:  100% 50%;
+	}
+	
+	#indepth_break_4 {
+		background-color:rgb(222,157,37);
+	}
+	
+	#indepth_break_1 .indepth_text_container{
+		background-color: none;
+	}
+	
+	#indepth_break_2 .indepth_text_container{
+		background-color: none;
+	}
+	
+	#indepth_break_3 .indepth_text_container{
+		background-color:none
+	}
+
+	#indepth_break_4 .indepth_text_container{
+		background-color:none
+	}
+	
 	
 }
+
