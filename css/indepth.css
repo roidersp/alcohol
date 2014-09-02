@@ -8,6 +8,14 @@
 	font-size: 19px;
 }
 
+.indepth_page{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+}
+
 .indepth_page_content{
 	background-color: white;
 	position: relative;
@@ -118,7 +126,7 @@
 	font-weight: 400;
 	text-transform: uppercase; /* comentar para quitar mayusculas */
 	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
-	color: #62977f;
+	color: #000;
 }
 
 .indepth_page_content .indepth_text{
@@ -158,7 +166,7 @@
 }
 
 .indepth_break .indepth_page_body{
-	height: 800px;
+	height: 100%;
 	background-size: cover;
 	top: 0px;
 	position: relative;
@@ -174,18 +182,24 @@
 }
 
 .indepth_break .indepth_text{
-	font-size:22px;
+	font-size:17px;
 	font-weight: 400;
 	color: #fff; /* color de la fuente*/
-	max-width:450px;
+	max-width:400px;
 	display: table-cell;
-	vertical-align: middle;			
+	vertical-align: middle;		
+	text-align: justify;	
+}
+
+.indepth_break .indepth_title{
+	font-size:20px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 
-
 .indepth_parallax_back {
-	height: 800px;
+	height: 100%;
 	background-size: cover;
 	background-color: #000;
 	top: 0px;
