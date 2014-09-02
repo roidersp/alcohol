@@ -170,14 +170,12 @@
 }
 
 .indepth_break .indepth_text{
-	font-size:21px;
-	font-weight: 600;
+	font-size:22px;
+	font-weight: 400;
 	color: #fff; /* color de la fuente*/
-	max-width:600px;
+	max-width:450px;
 	display: table-cell;
-	vertical-align: middle;		
-	padding: 0 15px; 
-	
+	vertical-align: middle;			
 }
 
 
@@ -200,12 +198,28 @@
 	background: #FCF9E6;
 }
 
+.indepth_break_tipo2 .indepth_text_container{
+	float: right;
+}
+
 #indepth_break_1 .indepth_parallax_back{
 	background-image: url(../images/ilus_1.jpg);
 }
 
+#indepth_break_2 .indepth_parallax_back{
+	background-image: url(../images/ilus_2.jpg);
+}
+
+#indepth_break_3 .indepth_parallax_back{
+	background-image: url(../images/ilus_3.jpg);
+}
+
+#indepth_break_4 .indepth_parallax_back{
+	background-image: url(../images/ilus_4.jpg);
+}
+
 #indepth_break_1 .indepth_text_container{
-	background-color: rgba(171,171,171,0.51)
+	/*background-color: rgba(222,171,29,0.5)*/
 }
 
 .indepth_parallax_back .indepth_text_container_left{
