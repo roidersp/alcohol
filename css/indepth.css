@@ -38,8 +38,8 @@
 }
 
 #indepth_cover .indepth_page_body{
-	top:400px;
 	position: relative;
+	display: table;
 }
 
 #indepth_cover .indepth_titlle_container{
@@ -67,7 +67,14 @@
 }
 
 #indepth_cover .indepth_parallax_back{
-	background-image: url(../images/memo_vazquez_cerebro.jpg);
+	background-image: url(../images/portada.jpg);
+}
+
+#indepth_cover .indepth_cover_back_body{
+	position: relative;
+	top: 350px;
+	background: rgba(0, 0, 0, 0.46);
+	padding: 20px 0;
 }
 
 #indepth_cover .indepth_title{
@@ -134,6 +141,14 @@
 	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
 	font-weight: 400;
 	font-size: 1em;
+}
+
+.indepth_page_infografia{
+	
+}
+
+.indepth_page_infografia .indepth_page_body{
+	text-align: center;
 }
 
 #indepth_footer{
@@ -243,10 +258,51 @@
 	text-transform: uppercase;
 }
 
+.indepth_image_left{
+	float: left;
+margin-right: 20px;
+margin-top: 5px;
+}
+
+.indepth_image_r{
+	float: right ;
+margin-left: 20px;
+margin-top: 5px;
+}
+
+ .indepth_quote{
+	font-family: 'Roboto';
+	font-size: 25px;
+	color: #000;
+	/*border-bottom: 2px solid #000;
+	border-top: 2px solid #000;*/
+	padding: 10px 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.indepth_quote_right{
+	width: 300px;
+	float: right;
+	margin: 10px 0 10px 15px;
+}
+
+.indepth_quote_left{
+	width: 300px;
+	float: left;
+	margin: 10px 15px 10px 0;
+}
+
+
 /****DINAMICO****/
 
 .indepth_page_uno{
 	background: #FCF9E6;
+}
+
+#indepth_page5{
+	background-color: #010101;
 }
 
 .indepth_break_tipo2 .indepth_text_container{
@@ -274,6 +330,117 @@
 	height: 500px;
 }
 
+
+/***** menu******/
+#indepth_intro .indepth_authors{
+	width: 610px;
+	margin: 30px auto;
+	height: auto;
+}
+
+#indepth_intro .indepth_authors .indepth_authors_container{
+	height: 130px;
+	margin-bottom: 20px;
+}
+
+#indepth_authors_2{
+	width: 465px;
+	margin: auto;	
+}
+
+#indepth_authors_1{
+	width: 610px;
+	margin: auto;
+	
+}
+#indepth_intro .indepth_author{
+	float: left;
+}
+
+.indepth_author{
+	width: 152.5px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	color: #525252;
+	font-size: 14px;
+	font-family: 'roboto';
+	text-align: center;
+	text-transform: uppercase;
+	height: 150px;
+	margin: auto;
+}
+
+#indepth_authors_2 .indepth_author{
+	min-width: 155px;
+	width: 155px;
+}
+
+.indepth_author p{
+	width: 100%;
+}
+
+.indepth_author_menu a{
+	text-decoration: none;
+}
+
+.indepth_author .indepth_author_img{
+	width: 105px;
+	height: 105px;
+	margin: auto;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-bottom: 3px;
+	background-size: 100%;
+	background-position-y: 100%;
+	cursor: pointer;
+	
+}
+
+.indepth_author .indepth_author_img:hover{
+	background-position-y: 0;
+}
+
+#indepth_authors_1 .indepth_author_img{
+	margin-top: 20px;
+}
+
+#GARRINCHA .indepth_author_img{
+	background-image: url(../images/garnicha200.png);
+}
+
+#PAUL .indepth_author_img{
+	background-image: url(../images/gazza200.png);
+}
+
+#GEORGE .indepth_author_img{
+	background-image: url(../images/GEORGE200.png);
+}
+
+#SOCRATES .indepth_author_img{
+	background-image: url(../images/socrates200.png);
+}
+
+
+#indepth_libros{
+	background: black;
+	
+}
+#indepth_libros_container{
+	height: 484px;
+	overflow: hidden;
+}
+
+#indepth_libros_container img{
+	height: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+	#indepth_libros_container{
+		width: 1920px;
+		margin: auto;
+	}
+}
 
 @media screen and (min-width: 2341px) {
 	#indepth_footer .indepth_text{
