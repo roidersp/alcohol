@@ -1,3 +1,10 @@
+.indepth_anuncio_ad{ width:100% !important;height: 100% !important;}
+.indepth_anuncio_ad iframe{ width:100% !important;}
+.indepth_anuncio_ad  #google_image_div{
+	width: 100% !important;
+	height: 100% !important;
+}
+
 .indepth_pages{
 	width: 100%;
 	min-width: 960px;
@@ -6,6 +13,7 @@
 	background-color: white;
 	font-family: 'Roboto';
 	font-size: 19px;
+	margin: auto;
 }
 
 .indepth_page{
@@ -14,6 +22,7 @@
 	position: relative;
 	overflow: hidden;
 	background-color: white;
+	margin: auto;
 }
 
 .indepth_page_content{
@@ -73,7 +82,7 @@
 #indepth_cover .indepth_cover_back_body{
 	position: relative;
 	top: 350px;
-	background: rgba(0, 0, 0, 0.46);
+	background: rgba(0, 0, 0, 0.12);
 	padding: 20px 0;
 }
 
@@ -207,7 +216,7 @@
 }
 
 .indepth_break .indepth_title{
-	font-size:20px;
+	font-size:56px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -262,12 +271,16 @@
 	float: left;
 margin-right: 20px;
 margin-top: 5px;
+	margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;
 }
 
 .indepth_image_r{
 	float: right ;
 margin-left: 20px;
 margin-top: 5px;
+margin:40px 0px 40px 30px;
 }
 
  .indepth_quote{
@@ -333,7 +346,7 @@ margin-top: 5px;
 
 /***** menu******/
 #indepth_intro .indepth_authors{
-	width: 610px;
+	width: 600px;
 	margin: 30px auto;
 	height: auto;
 }
@@ -341,6 +354,7 @@ margin-top: 5px;
 #indepth_intro .indepth_authors .indepth_authors_container{
 	height: 130px;
 	margin-bottom: 20px;
+	display: table;
 }
 
 #indepth_authors_2{
@@ -349,7 +363,7 @@ margin-top: 5px;
 }
 
 #indepth_authors_1{
-	width: 610px;
+	width: 600px;
 	margin: auto;
 	
 }
@@ -358,7 +372,7 @@ margin-top: 5px;
 }
 
 .indepth_author{
-	width: 152.5px;
+	width: 150px;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 0px;
@@ -392,13 +406,13 @@ margin-top: 5px;
 	overflow: hidden;
 	margin-bottom: 3px;
 	background-size: 100%;
-	background-position-y: 100%;
+	background-position: 0 100%;
 	cursor: pointer;
 	
 }
 
 .indepth_author .indepth_author_img:hover{
-	background-position-y: 0;
+	background-position: 0 0;
 }
 
 #indepth_authors_1 .indepth_author_img{
@@ -433,6 +447,33 @@ margin-top: 5px;
 
 #indepth_libros_container img{
 	height: 100%;
+	width: auto;
+	max-width: 100000px;
+}
+
+.indepth_libros_controles{
+	width: 50px;
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+#indepth_libros_left{
+	left: 0px;
+	background-image: url(../images/flecha_izq.png);
+	background-position: 50% 50%;
+}
+
+.indepth_libros_controles:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+#indepth_libros_r{
+	right: 0px;
+	background-image: url(../images/flecha_derecha.png);
+	background-position: center center;
 }
 
 @media screen and (min-width: 1920px) {
@@ -487,6 +528,20 @@ margin-top: 5px;
 		width: 100%;
 	}
 	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 800px;
+		background-position: 50% 0;
+	}
+	
+	.indepth_page_infografia .indepth_page_body, .indepth_page_infografia .indepth_page_body img{
+		width: 100%;
+	}
+	
+	.indepth_break .indepth_page_body{
+		width: 100%;
+	}
+
+	
 	/*** dinamico **/
 	
 	.indepth_break .indepth_parallax_back{
@@ -518,6 +573,10 @@ margin-top: 5px;
 		background-color:rgba(171,34,32,0.63);
 	}
 	
+	#indepth_break_3 .indepth_parallax_back{
+		background-position: 40% 50%;
+	}
+	
 	#indepth_break_4 .indepth_parallax_back{
 		background-position:  65% 50%;
 	}
@@ -525,6 +584,60 @@ margin-top: 5px;
 	#indepth_break_4 .indepth_text_container{
 		background-color:rgba(222,157,37,0.6);
 	}
+}
+@media screen and (max-width: 600px) {
+	#indepth_break_5 .indepth_parallax_back {
+		background-image: url("../images/nike_ad_movil.jpg");
+		background-size: 100%;
+		height: 400px;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: initial;
+		background-position: 50% 50%;
+	}
+	
+	#indepth_break_5 {
+		display: table;
+		
+	}
+
+	#indepth_intro .indepth_authors{
+		width: 300px;		
+	}
+	
+	#indepth_cover{
+		height: 650px;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 650px;
+	}
+	
+	.indepth_image_left,.indepth_image_r{
+		float: none;
+		margin: 30px auto;
+		text-align: center;
+	}
+	
+	.indepth_quote_left{
+		width: 80%;
+		float: none;
+		margin: 0 auto 25px;
+	}
+	
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+	
+	.indepth_break .indepth_title{
+		font-size:46px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	
+	.indepth_libros_controles{
+	display: none;
+}
 }
 
 @media screen and (max-width: 360px) {
@@ -539,8 +652,8 @@ margin-top: 5px;
 		margin-top: 0px;
 	}
 	
-	#indepth_cover .indepth_page_body{
-		top:280px;
+	#indepth_cover .indepth_cover_back_body{
+		top:240px;
 	}
 	
 	.indepth_break {
@@ -558,12 +671,25 @@ margin-top: 5px;
 		float: left;
 	}
 	
+	.indepth_quote_left{
+		width: 300px;
+	}
+	
+	.indepth_quote{
+		font-size: 20px;
+		padding: 0px;
+	}
+	
+	.indepth_image_left img,.indepth_image_r img{
+		width: 100%;
+	}
+	
 	#indepth_break_1 .indepth_parallax_back{
 		background-position:  90% 50%;
 	}
 	
 	#indepth_break_1{
-		background-color: rgb(124,90,158);
+		background-color: #8562a7;
 	}
 	
 	#indepth_break_2 .indepth_parallax_back{
@@ -571,14 +697,14 @@ margin-top: 5px;
 	}
 
 	#indepth_break_2 {
-		background-color: #4277b6;
+		background-color: #547dc0;
 	}
 
 	#indepth_break_3 .indepth_parallax_back{
 		background-position:  0% 50%;
 	}
 	#indepth_break_3{
-		background-color:rgb(171,34,32);
+		background-color:#ac2226;
 	}
 	
 	#indepth_break_4 .indepth_parallax_back{
@@ -605,6 +731,63 @@ margin-top: 5px;
 		background-color:none
 	}
 	
+	#indepth_ads #indepth_parallax_back {
+		background-image: url("../images/nike_ad_movil.jpg");
+		background-size: 100%;
+		height: 400px;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: initial;
+		background-position: 50% 50%;
+	}
+}
 	
+@media screen and (width: 360px) {
+		#indepth_libros_container{
+		height: 539px;
+	}
 }
 
+@media screen and (max-height: 360px) {
+	#indepth_libros_container{
+		height: 320px;
+	}
+	
+	#indepth_break_5{
+		height: 250px;
+	}
+	
+	#indepth_cover {
+height: 362px;
+}
+#indepth_cover .indepth_cover_back_body {
+top: 160px;
+}
+
+#indepth_cover .indepth_title {
+font-size: 25px;
+}
+		#indepth_break_5 .indepth_parallax_back {
+		background-image: url("../images/nike_ad_land.jpg");
+		background-size: 100%;
+		height: 200px;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: 50% 50%;
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) and (max-height: 768px){
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+}
+
+@media screen and (max-height: 1024px) and (max-width: 768px){
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+}
